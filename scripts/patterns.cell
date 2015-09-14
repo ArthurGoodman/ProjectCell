@@ -1,0 +1,9 @@
+#color hsl
+#mod 4
+#resize 200 200
+#rand
+
+var c = cell()
+
+if(c != at(x()+rand()%51-25, y()+rand()%51-25)) rand()*4
+else c

@@ -1,0 +1,8 @@
+#resize 200 200
+#mod 16
+#color hsl
+#rand
+#int 0
+
+if((x() + y())/2 > 200*rand()) cell()
+else at(x() + rand()*2, y() + rand()*2)

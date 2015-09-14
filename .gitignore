@@ -1,0 +1,9 @@
+*.pro.user
+object_script*
+Makefile*
+debug
+release
+script-tester/Makefile*
+script-tester/object_script*
+script-tester/debug
+script-tester/release

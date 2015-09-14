@@ -1,0 +1,10 @@
+#resize 150 150
+#mod 16
+#rand
+#color hsl
+#int 0
+
+var c = cell(), d = (c + 1) % mod()
+
+if(at(x()-1,y()) == d | at(x()+1,y()) == d | at(x(),y()-1) == d | at(x(),y()+1) == d) d
+else c
